@@ -41,8 +41,6 @@ var questionarry=[
 
 ]
 
-
-
 startButtonEl.addEventListener("click",function(){
     introEl.classList.add("hide");
     questionsEl.classList.remove("hide");
