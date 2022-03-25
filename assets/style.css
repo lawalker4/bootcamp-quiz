@@ -4,7 +4,7 @@
 
 :root {
     --primary: black;
-    --secondary: rgb(153, 75, 153); 
+    --secondary: rgb(64, 131, 255) ; 
     --tertiary: rgb(192, 246, 253);
     --grey: #333;
     font-size: 62.5%;
@@ -29,5 +29,10 @@ header {
 
 .hide  {
     display: none;
+    font-size: 18px;
 
 }
+
+intro .p {
+    font-size: 20px;
+    }
