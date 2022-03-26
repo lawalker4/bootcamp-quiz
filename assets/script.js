@@ -56,6 +56,11 @@ function countdown(){
     timeRemaining=timeRemaining-1;
 }
 
-questionsEl.on('click', function () {
-
-});
+// // function myFunction() {
+//   var x = document.getQuestionsEl("myDIV");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
