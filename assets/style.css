@@ -13,8 +13,13 @@
 body {
     background: #ededed;
     color:black;
+<<<<<<< HEAD
     margin: 10px;
     padding: 5;
+=======
+    margin: 0;
+    padding: 0;
+>>>>>>> 959581111a55dae9d97cea8e43478539f9993c00
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -25,6 +30,7 @@ header {
     background: var(--secondary);
     padding: 20px 15px;
     border-bottom: 5px solid var(--primary);
+<<<<<<< HEAD
     text-align: center;
 }
  
@@ -34,3 +40,11 @@ header {
     text-align: center;
 
 }
+=======
+}
+
+.hide  {
+    display: none;
+
+}
+>>>>>>> 959581111a55dae9d97cea8e43478539f9993c00

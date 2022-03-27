@@ -96,6 +96,7 @@ saveButtonEl.addEventListener("click", function () {
     localStorage.setItem("score", JSON.stringify(scorearry))
     initialEl.classList.add("hide")
     highScoreEl.classList.remove("hide")
+    highScoreEl.classList.add("name")
 })
 
 
@@ -115,7 +116,3 @@ document.getElementById('incorrect').addEventListener('click', function () {
     sec -= 5;
     document.getElementById('timerDisplay').innerHTML = '00:' + sec;
 });
-
-
-
-
