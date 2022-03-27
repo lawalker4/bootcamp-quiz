@@ -4,9 +4,9 @@ var startButtonEl=document.querySelector(".start-button")
 var questionsEl=document.querySelector("#questions")
 var initialEl=document.querySelector("#initial")
 var highScoreEl=document.querySelector("#high-score")
-var timeRemaining=75
+var timeRemaining=5
 var clockId=null
-var alertTimerId = 0;
+
 
 var questionTitelEl=document.querySelector("#question-title")
 var choice1El=document.querySelector("#Choice1")
@@ -104,27 +104,9 @@ saveButtonEl.addEventListener("click",function(){
 function countdown(){
     timerEl.innerHTML=timeRemaining;
     timeRemaining=timeRemaining-1;
-}
+    if (timeRemaining === 0){
+        console.log
+        clearInterval(timerEl)
+    }
+};
 
-function alertTimerClickHandler ( )
-{
-  if ( document.getElementById("alertTimerButton").value == "Click me and wait!" )
-  {
-    // Start the timer
-    document.getElementById("alertTimerButton").value = "Click me to stop the timer!";
-    alertTimerId = setTimeout ( "showAlert()", 1000 );
-  }
-  else
-  {
-    document.getElementById("alertTimerButton").value = "Click me and wait!";
-    clearTimeout ( alertTimerId );
-  }
-}
-
-function showAlert ( )
-{
-  alert ( "Too late! You didn't stop the timer." );
-  document.getElementById("alertTimerButton").value = "Click me and wait!";
-}
-
-//End Game
