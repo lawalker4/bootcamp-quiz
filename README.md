@@ -8,6 +8,8 @@ The purpose of this site is to have the players answer questions before the time
 Preview:
 Below is a mock up of how the web page look and functions.
 
+https://lawalker4.github.io/bootcamp-quiz/
+
 Screenshot:
 ![image](https://user-images.githubusercontent.com/99148199/160299019-a182194a-ea75-4869-a4af-f1f62fc5eced.png)
 
